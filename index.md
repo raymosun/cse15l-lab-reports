@@ -4,8 +4,6 @@ There are a *lot* of things you can do with **markdown**.
 
 # Here is a heading
 ## and another heading
-wow
-===
 
 Click on this [link](https://www.google.com)
 
@@ -13,9 +11,6 @@ Click on this [link](https://www.google.com)
 
 > This should be a block quote
 > and some more words
-
-* stuff
-* things
 
 - people
 - places
