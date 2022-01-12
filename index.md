@@ -12,7 +12,7 @@ Click on this [link](https://www.google.com)
 ![Image](https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png)
 
 > This should be a block quote
-> on two lines
+> and some more words
 
 * stuff
 * things
@@ -29,7 +29,9 @@ Click on this [link](https://www.google.com)
 
 `Some inline code`
 
-```A bigger block
+```
+A bigger block
 of code
 within these
-triple backticks```
+triple backticks
+```
