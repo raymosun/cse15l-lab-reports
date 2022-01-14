@@ -2,6 +2,7 @@
 
 ## Installing VSCode
 Go to the [Visual Studio Code website](https://code.visualstudio.com/) and download the installer for your system. Run the installer and follow all the directions.
+
 ![VSCode](img/w2l1/vscode.png)
 
 
@@ -11,6 +12,8 @@ If you don't already have it, [install OpenSSH](https://docs.microsoft.com/en-us
 To connect, open a terminal and type `ssh cs15lwi22zzz@ieng6.ucsd.edu` (where the zzz is the letters specific to your account). Say yes if it asks about a fingerprint and type in your password when prompted.
 
 You should see output similar to this:
+
+
 ![Image](img/w2l1/login.png)
 
 ## Trying Some Commands
