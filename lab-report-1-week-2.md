@@ -18,10 +18,10 @@ You should see output similar to this:
 
 ## Trying Some Commands
 Here are some common commands:
-* cd (change directory)
-* ls (list)
-* cp (copy)
-* cat (concantenate; useful for printing)
+* `cd` (change directory)
+* `ls` (list)
+* `cp` (copy)
+* `cat` (concantenate; useful for printing)
 
 The command `ls -lat` lists files, including hidden files, and lots of information about each one.
 
@@ -47,3 +47,12 @@ Next, copy the generated `id_rsa.pub` file into `~/.ssh/authorized_keys` in your
 
 If you just want to run a couple commands on the remote server, you can add them as an argument to the `ssh` command as shown below (separated by semicolons if necessary). This will log in, run the commands, then exit.
 ![Image](img/w2l1/optimize.png)
+
+For extremely optimal running, use the command
+
+`scp OtherMain.java cs15lwi22abp@ieng6.ucsd.edu:~/; ssh cs15lwi22abp@ieng6.ucsd.edu "javac OtherMain.java; java OtherMain"`
+
+where "OtherMain.java" is the file you're working on. That will copy your updated file to the server, compile it, and run it in one line of commands. After running once, you can run it again in just **3 keystrokes**:
+1. Click the terminal
+2. Press Up Arrow
+3. Press Enter
