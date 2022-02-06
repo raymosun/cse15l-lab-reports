@@ -1,7 +1,7 @@
 # Week 4 Lab 2
 
 ## Change 1
-![Image](img\w4l2\fix1.png)
+![Image](/img/w4l2/fix1.png)
 Breaking test case [(link)](https://github.com/sunouray/markdown-parse/commit/989bfc8ea469e8a27c13aa8ad90283eb17630f42)
 
 
@@ -26,7 +26,7 @@ PS C:\Users\sunra\Documents\GitHub\markdown-parse> java MarkdownParse test-file2
 The **failure-inducing input** had an incomplete set of the symbols `[]()`. Since the code had a **bug** where it did not recognize imcomplete sets of symbols and ignore them, it treated the incomplete symbols as a valid link, and continued copying text as a "link" until it reached the `)` of an entirely different link (the **symptom**).
 
 ## Change 2
-![Image](img\w4l2\fix2.png)
+![Image](/img/w4l2/fix2.png)
 Breaking test case [(link)](https://github.com/sunouray/markdown-parse/commit/3779cb20067c3cd29c9b894a92c378a891213c9a)
 
 ```
@@ -50,7 +50,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 The code had a **bug** where it would not exit its while loop unless it finished a link at the last character of the file. Since the **failure-inducing input** had additional text after its last link, the **symptom** was that Java entered an infinite loop.
 
 ## Change 3
-![Image](img\w4l2\fix3.png)
+![Image](/img/w4l2/fix3.png)
 Breaking test case [(link)](https://github.com/sunouray/markdown-parse/commit/e5e2663db1f77ad5468a343c546423d80b1f99e8)
 
 ```
