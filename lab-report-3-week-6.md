@@ -6,7 +6,7 @@ To avoid typing the server and username every time while `ssh`ing, create an ent
 
 ![Image](img/w6l3/config.png)
 
-As shown in the picture below, all you have type is `ssh <your alias>`. 
+As shown in the picture below, all you have type is `ssh <your alias>`. This saves a lot of keystrokes. How easy is that!
 
 ![Image](img/w6l3/ssh.png)
 
